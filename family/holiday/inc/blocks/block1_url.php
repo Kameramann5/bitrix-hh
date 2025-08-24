@@ -1,0 +1,1 @@
+<a href="/upload/iblock/b20/ssbc23ksw29ifngn9s72hoixpqdx6a7m.pdf" target="_blank">СМОТРЕТЬ</a>

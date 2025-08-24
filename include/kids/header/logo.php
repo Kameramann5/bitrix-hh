@@ -1,0 +1,1 @@
+<a href="/kids/"><img  src="<?=SITE_TEMPLATE_PATH ?>/assets/img/logo.png" alt="лого"></a>

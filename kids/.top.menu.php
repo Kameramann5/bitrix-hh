@@ -1,0 +1,40 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Kids",
+		"/kids/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+    Array(
+        "Праздники",
+        "/kids//holiday/",
+        Array(),
+        Array(),
+        ""
+    ),
+
+    Array(
+        "Акции",
+        "/kids/special_offers/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Меню",
+        "/kids/menu/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "О нас",
+        "/about/",
+        Array(),
+        Array(),
+        ""
+    )
+);
+?>

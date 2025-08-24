@@ -1,0 +1,1 @@
+<a href="https://2gis.ru/kazan/firm/70000001076508296"><img src="<?=SITE_TEMPLATE_PATH ?>/assets/img/2gis_black.svg" alt="2ГИС" title="2ГИС"><p>2ГИС</p></a>

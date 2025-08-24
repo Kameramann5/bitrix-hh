@@ -1,0 +1,1 @@
+<img src="<?=SITE_TEMPLATE_PATH ?>/assets/img/menu/2gis.svg" alt="2gis" title="2gis "><p>2gis</p>

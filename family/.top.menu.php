@@ -1,0 +1,40 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Family",
+		"/family/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+    Array(
+        "Мероприятия",
+        "/family//holiday/",
+        Array(),
+        Array(),
+        ""
+    ),
+
+    Array(
+        "Акции",
+        "/family/special_offers/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Меню",
+        "/family/menu/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "О нас",
+        "/about/",
+        Array(),
+        Array(),
+        ""
+    )
+);
+?>

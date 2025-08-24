@@ -1,0 +1,1 @@
+<a href="https://vk.com/barto.family"><img alt="VK" src="/local/templates/main/assets/img/vk.svg" title="VK"><p><span style="color: #ffff00;">VK</span></p></a>

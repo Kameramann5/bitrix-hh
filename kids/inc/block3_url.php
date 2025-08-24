@@ -1,0 +1,1 @@
+<a href="/kids/holiday/">ПОДРОБНЕЕ</a>

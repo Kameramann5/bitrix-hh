@@ -1,0 +1,1 @@
+<img src="<?=SITE_TEMPLATE_PATH ?>/assets/img/menu/VK.svg" alt="vk" title="vk"><p>vk</p>

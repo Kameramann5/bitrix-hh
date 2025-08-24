@@ -1,0 +1,1 @@
+<a href="https://wa.me/79178806080"><img alt="WhatsApp" src="/local/templates/main/assets/img/whatsapp.svg" title="WhatsApp"><p><span style="color: #ffff00;">WhatsApp</span></p></a>

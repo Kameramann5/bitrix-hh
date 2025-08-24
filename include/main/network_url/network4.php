@@ -1,0 +1,1 @@
+https://2gis.ru/kazan/firm/70000001076508296

@@ -1,0 +1,1 @@
+<img src="<?=SITE_TEMPLATE_PATH ?>/assets/img/menu/yandex.svg" alt="Яндекс Навигатор" title="Яндекс Навигатор"><p>Яндекс Навигатор</p>

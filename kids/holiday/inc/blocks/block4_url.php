@@ -1,0 +1,1 @@
+<a href="/upload/barto_cake.pdf" target="_blank">СМОТРЕТЬ</a>

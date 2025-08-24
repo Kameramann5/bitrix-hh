@@ -1,0 +1,1 @@
+<a href="/kids/holiday/?id=order_an_event">ЗАКАЗАТЬ ПРАЗДНИК</a>

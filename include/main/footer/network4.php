@@ -1,0 +1,1 @@
+<img src="<?=SITE_TEMPLATE_PATH ?>/assets/img/2gis.svg" alt="2GIS" title="2GIS">

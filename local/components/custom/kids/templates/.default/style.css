@@ -1,0 +1,346 @@
+/*index*/
+.index { color: white}
+.index .hero-block-one .hero-block {
+    border-radius: 90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    margin-bottom: 140px;color: white;position: relative;overflow: hidden;
+}
+.index .hero-block-one .hero-block p {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 168px;
+    line-height: 72px;position: relative;
+}
+.index .hero-block-one .hero-block a {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    display: inline-block;
+    border-radius: 30px;
+    border: 3px solid #FFF;
+    padding: 10px 66px;
+}
+.index .hero-block-one .hero-block a:hover {
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+.index .hero-block-one .hero-block .hero-block-zakaz {
+    padding-top: 347px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.index .hero-block-one .hero-block .hero-block-zakaz .hero-block-zakaz-bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.index .hero-block-two {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 140px;
+}
+.index .hero-block-two .row { gap: 30px}
+.index .hero-block-two p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: left;
+    margin-bottom: 30px;
+    color: black;
+}
+.index .hero-block-two h2 {
+    margin-bottom: 60px;color: black;
+}
+
+
+
+
+.index .hero-block-three .hero-block-three-part .hero-block-three-part-bg {
+    position: absolute;
+    right: -51px;
+    bottom: 0px;
+    z-index: 1;
+    width: 303.237px;
+    height: 437.616px;
+    object-fit: contain;
+
+}
+
+.index .hero-block-three .hero-block-three-part   {
+    border-radius: 70px;
+overflow: hidden;position: relative;    width: 490px;
+    height: 600px;
+}
+.index .hero-block-three .hero-block-three-part img {        position: absolute;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;}
+.index .hero-block-three .row {gap: 30px}
+.index .hero-block-three .hero-block-three-part .hero-block-part-inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0px 40px 40px 40px;
+
+position: relative;align-content: flex-start;box-shadow: 0px -203px 71px -70px #00000078 inset;
+}
+.index .hero-block-three .hero-block-three-part .hero-block-part-inner p {      line-height: 55px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;    z-index: 1;
+    margin-bottom: 50px;
+    position: relative;}
+.index .hero-block-three .hero-block-three-part .hero-block-part-inner a {      color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 3px solid #FFF;
+    padding: 15px 34px;
+    position: relative;width: fit-content;
+position: relative;z-index: 1;
+}
+.index .hero-block-three .hero-block-three-part .hero-block-part-inner a:hover {  background: var(--Yellow, #FC0);color: white;
+    border: 3px solid var(--Yellow, #FC0);transition: 0.3s}
+
+
+
+.index .hero-block-three .hero-block-part img {
+    position: absolute;
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  transition: 0.3s;
+}
+
+
+
+
+.index .hero-block-four h2 {
+    text-align: center;
+}
+
+
+.index .hero-block-four-section {
+    margin-top: 140px;
+    overflow: hidden;
+}
+.index .hero-block-four-section h2 {
+    margin-bottom: 60px;color: black;
+}
+@media (max-width: 1770px) {
+    .index .hero-block-three .hero-block-three-part { max-height: 540px;    width: 31%; }
+}
+
+@media (max-width: 1700px) {
+    .index .hero-block-three .hero-block-three-part { max-height: 510px;    width: 31%;}
+    .index .hero-block-three .hero-block-three-part .hero-block-part-inner a {font-size: 15px;line-height: 17px;}
+    .index .hero-block-three .hero-block-three-part .hero-block-part-inner p {font-size: 30px;line-height: 33px;
+        margin-bottom: 20px}
+
+
+}
+@media (max-width: 1530px) {
+    .index .hero-block-three .hero-block-three-part {max-height: 470px;     width: 31%;}
+}
+
+
+
+@media (max-width: 1400px) {
+    .index .hero-block-two p { width: 100%}
+    .index .hero-block-three .hero-block-three-part .hero-block-part-inner p {font-size: 27px;line-height: 30px;
+        margin-bottom: 20px}
+    .index .hero-block-three .hero-block-three-part {max-height: 435px;   }
+
+}
+
+
+@media (max-width: 1280px) {
+    .index .hero-block-three .hero-block-three-part {max-height: 410px;   }
+    .index .hero-block-one .hero-block .hero-block-zakaz .hero-block-zakaz-bg {
+        width: 232.028px;
+        height: 236.853px;
+
+    }
+
+
+    .index .hero-block-one .hero-block .hero-block-zakaz {
+        padding-top: 209px;
+        padding-bottom: 100px;
+    }
+
+
+    .index .hero-block-four .swiper-slide {
+        height: 468px;
+    }
+
+}
+@media (max-width: 1200px) {
+    .index .hero-block-three .hero-block-three-part {  width: 47%;max-height: 456px}
+    .index .hero-block-two .row { gap: 0}
+    .index .hero-block-three .hero-block-three-part .hero-block-three-part-bg {
+        width: 204.2px;
+        height: 229.353px;
+
+    }
+
+    .index .hero-block-one .hero-block .hero-block-zakaz .hero-block-zakaz-bg {
+
+    }
+
+
+    .index .hero-block-two p {      font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 30px;}
+
+
+    .index .hero-block-one .hero-block p {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 36px;
+    }
+    .index .hero-block-one .hero-block a {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 20px;
+    }
+    .index .hero-block-one .hero-block .hero-block-zakaz {
+        padding-top: 160px;
+        padding-bottom: 70px;
+    }
+    .index .hero-block-two {
+        margin-top: 0px;
+    }
+    .index .hero-block-two h2 {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 40px;
+    }
+    .index .hero-block-two p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+
+
+    .index .hero-block-four-section {
+        margin-top: 100px;
+    }
+    .index .hero-block-four-section h2 {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 40px;
+    }
+    .index .hero-block-four .swiper-slide {
+        height: 396px;
+    }
+
+}
+@media (max-width: 1024px) {
+    .index .hero-block-four .swiper-slide {
+        border-radius: 40px;
+    }
+    .index .hero-block-one .hero-block {
+        border-radius: 60px;
+    }
+
+
+
+    .index .hero-block-one .hero-block { margin-bottom: 100px}
+
+}
+
+@media (max-width: 740px) {
+    .index .hero-block-one .hero-block .hero-block-zakaz .hero-block-zakaz-bg {
+        width: 103.762px;
+        height: 105.92px;
+
+    }
+    .index .hero-block-one .hero-block {  margin-bottom: 40px}
+
+    .index .hero-block-one .hero-block p {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 13px;
+    }
+    .index .hero-block-one .hero-block a {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .index .hero-block-one .hero-block .hero-block-zakaz {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+
+}
+@media (max-width: 650px) {
+    .index .hero-block-three .hero-block-three-part { width: 100%;max-height: 550px;}
+    .index .hero-block-two p {      font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 20px;}
+    .index .hero-block-two { margin-bottom: 0}
+
+
+}
+@media (max-width: 500px) {
+    .index .hero-block-three .hero-block-three-part { max-height: 456px;}
+
+}
+@media (max-width: 400px) {
+    .index .hero-block-three .hero-block-three-part img   { height: 404px}
+    .index .hero-block-three .hero-block-three-part {      height: 400px;border-radius: 10px}
+    .index .hero-block-three .hero-block-three-part .hero-block-part-inner a {       padding: 6px 28px; font-size: 16px}
+    .index .hero-block-three .hero-block-three-part .hero-block-part-inner {  padding: 20px}
+
+    .index .hero-block-one .hero-block {
+        border-radius: 40px;
+    }
+    .index .hero-block-one .hero-block {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .index .hero-block-two {
+        margin-top: 0;
+    }
+    .index .hero-block-two h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .index .hero-block-two p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .index .hero-block-four-section {
+        margin-top: 40px;
+    }
+    .index .hero-block-four-section h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+
+    .index .hero-block-one .hero-block a {
+        padding: 10px;
+    }
+}
+@media (max-width: 360px) {
+
+
+}
+
+/*end index*/

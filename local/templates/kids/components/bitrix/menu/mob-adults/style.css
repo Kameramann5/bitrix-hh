@@ -1,0 +1,4 @@
+.mob-top-menu  a { color: black}
+.mob-top-menu li:hover { background: var(--yellow, #FC0); }
+.mob-top-menu  li { margin-bottom: 10px; border-radius: 20px;padding: 10px 20px; font-size: 18px;font-weight: 600;line-height: 22px;}
+.mob-top-menu  li.selected   { background: var(--yellow, #FC0); }

@@ -1,0 +1,234 @@
+div[id^="wait_"]
+{
+    display: none !important;
+    background: none !important;
+    border: 0 !important;
+    color: #000000;
+    font-family: Verdana, Arial,
+    sans-serif; font-size: 11px;
+    font-style: normal !important;
+    font-variant: normal !important;
+    font-weight: normal;
+    letter-spacing: normal !important;
+    line-height: normal;
+    padding: 0 !important;
+    position: absolute;
+    text-align: center !important;
+    text-indent: 0 !important;
+    width: 0px !important;
+    height: 0px !important;
+    word-spacing: normal !important;
+    z-index: 0;
+    content: "";
+}
+.form_zakaz {      border-radius: 70px;
+    background: #FC0;
+    padding-top: 74px;
+    padding-bottom: 75px;
+    position: relative;
+    height: 420px;
+    overflow: hidden;margin-bottom: 140px}
+.form_zakaz .bg {     position: absolute;
+    left: 0;
+    top: 0;}
+.form_zakaz .bg-two {      position: absolute;
+    right: 0;
+    bottom: 0;}
+.form_zakaz .mob-bg {     display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;}
+.form_zakaz .mob-bg-two {      display: none;
+    position: absolute;
+    right: 0;
+    bottom: 25px;}
+
+.mfeedback {      width: 490px;
+    margin: 0 auto;
+    position: relative;}
+.mfeedback .mf-flex  { display: flex;    justify-content: space-between;}
+.mfeedback input[type="text"] { padding: 20px;border-radius: 10px;color: rgba(0, 0, 0, 0.70);font-size: 16px;font-weight: 400;
+border: none;
+margin-bottom: 17px;outline: none;
+}
+.mfeedback .submit   {  text-align: center }
+.mfeedback .submit  input[type="submit"]  { font-family: Mulish;
+    border: none;color: #000;text-align: center;font-size: 30px;font-weight: 800;padding: 17px 35px;border-radius: 50px;
+margin-top: 30px;cursor: pointer;text-transform: uppercase;
+}
+.mfeedback .submit  input[type="submit"]:hover { background: black;color: white;transition: 0.3s }
+
+.error_inner {      margin-bottom: 10px;}
+.mf-ok-text {      margin-bottom: 10px;}
+/* select custom */
+.mfeedback {
+
+    padding: 0;
+    box-sizing: border-box;
+    border-color: inherit;
+}
+
+.select {
+
+    height: 60px;
+    cursor: pointer;
+    background-color: white;
+
+    border-radius: 10px;
+}
+.select_options {      border-radius: 10px;
+
+
+    max-height: 159px;
+    overflow: auto;
+    position: relative;
+    bottom: 0px;
+    min-height: 61px;
+}
+.select_expand {
+    width: 0;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.select_expand::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+
+
+
+    pointer-events: none;
+    z-index: 2;
+    transition: all 250ms cubic-bezier(.4,.25,.3,1);
+
+    background-image: url(images/select_arrow.svg);
+    background-repeat: no-repeat;
+    width: 11px; height: 8px; background-size: contain;
+}
+
+.select_expand:hover::after {opacity: 1}
+
+.select_expand:checked::after {transform:  rotate(180deg)  ;opacity: 0}
+
+.select_expandLabel {
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.select_close {display: none}
+
+.select_closeLabel {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.select_items {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border-radius: 10px;
+    padding-top: 0px;    z-index: 2;
+}
+
+.select_input {display: none}
+.select_options li { background: white;   }
+.select_label {
+    transition: all 250ms cubic-bezier(.4,.25,.3,1);
+    display: block;
+    height: 0;
+
+    line-height: 20px;
+    overflow: hidden;
+ color: rgba(0, 0, 0, 0.70);font-weight: 400;
+
+
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.select_label-placeholder {
+    height: 60px;
+    vertical-align: middle;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .6;
+    background-color: transparent;    display: flex;
+    align-items: center;
+}
+
+.select_expand:checked + .select_closeLabel {
+    display: block;
+}
+
+.select_expand:checked + .select_closeLabel + .select_options .select_label {
+    height: 60px;    display: flex;
+    align-items: center;
+}
+
+.select_expand:checked + .select_closeLabel + .select_options + .select_expandLabel {display: none}
+
+.select_input:checked + .select_label {    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+/*end select custom*/
+@media (max-width: 1280px) {
+    .mfeedback .submit input[type="submit"] {font-size: 20px !important;margin-top: 30px !important;}
+
+    .mfeedback .submit input[type="submit"] { margin-top: 20px !important}
+}
+@media (max-width: 778px) {
+    .mfeedback .mf-name { margin-bottom: 15px}
+    .mfeedback .mf-message { margin-bottom: 10px}
+
+    .mfeedback input[type="text"] { margin-bottom: 0 !important}
+
+}
+
+@media (max-width: 600px) {
+    .mfeedback .mf-flex {      display: block;}
+    .mfeedback input[type="text"] {    margin-bottom: 15px; width: 100%;padding: 10px 20px;}
+    .form_zakaz {       border-radius: 40px;   padding-bottom: 30px;    padding-top: 30px;    padding-left: 20px;
+        padding-right: 20px;margin-bottom: 60px;     height: auto;}
+    .mfeedback { width: 100% ; padding: 0 30px}
+    .select_expandLabel { height: 40px}
+    .select_options {      min-height: 40px;}
+    .select { height: 40px}
+    .select_label-placeholder  { height: 40px}
+    .select_expand  { height: 40px}
+    .select_expand:checked + .select_closeLabel + .select_options .select_label   { height: 40px}
+    .select_input:checked + .select_label  { height: 40px}
+    .mfeedback .submit input[type="submit"] {  width: 100%; font-size: 16px;    padding: 10px 5px;margin-top: 20px;}
+    .holiday .hero-block-five .zakaz {
+        height: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 545px) {
+    .form_zakaz .bg {      display: none;}
+    .form_zakaz .bg-two {      display: none;}
+    .form_zakaz .mob-bg {     display: block;}
+    .form_zakaz .mob-bg-two {     display: block;}
+}
+
+
+
+

@@ -1,0 +1,1 @@
+<img src="<?=SITE_TEMPLATE_PATH ?>/assets/img/menu/whatsapp.svg" alt="WhatsApp" title="WhatsApp"><p>WhatsApp</p>

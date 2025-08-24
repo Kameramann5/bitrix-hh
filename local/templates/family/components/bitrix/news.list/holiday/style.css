@@ -1,0 +1,154 @@
+.modal-holiday {border-radius: 70px !important;
+    background: #FC0;position: relative !important;min-width: 1270px;
+    width: 1270px !important; height: 100%}
+.modal-holiday  .btn-close {  position: absolute;     top: 50px;    right: 90px;font-size: 0;cursor: pointer;opacity: 1;z-index: 1;}
+.modal-holiday  .btn-close:focus { box-shadow: none}
+.modal-holiday  .modal-img { background-repeat: no-repeat;background-size: cover;    width: 100%;    border-radius: 68px 0px 0px 68px;
+    position: absolute;
+    background-position-x: center;    height: 100%;}
+.modal-holiday .nametitle_inner {     padding: 0px 50px;font-size: 50px;color: #000;line-height: 62px; text-align: center;height: 199px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 20px;    justify-content: center;
+}
+.modal-holiday .modal-holiday-flex {  justify-content: space-between;display: flex; }
+.modal-holiday .modal-holiday-left    {      z-index: 1;   min-width: 350px;     position: relative; }
+.modal-holiday .modal-holiday-right {       width: 100%;  min-height: 685px; padding: 50px; position: relative }
+
+.modal-holiday .modal-holiday-right-inner {  justify-content: space-between;display: flex;    align-items: center;   }
+.modal-holiday .description_inner {  text-align: center;font-size: 20px;line-height: 25px;margin-top: 30px;margin-bottom: 30px;}
+.modal-holiday .price_inner  {font-size: 50px;line-height: 62px;    width: 279px;}
+.modal-holiday .text_inner  { font-size: 30px;line-height: 37px;}
+.modal-holiday  .modal_bg {      position: absolute;
+    top: 0;
+    left: -141px;}
+.calendar-no-active {
+background: white;
+padding: 38px 113px 197px  113px;border-radius: 30px;
+position: relative;overflow: hidden;
+}
+.calendar-no-active .calendar-no-active-inner {
+    text-align: center;margin-bottom: 19px;
+
+}
+.calendar-no-active .calendar-no-active-inner .calendar-no-active-logo {  }
+.calendar-no-active .calendar-no-active-text  {
+    color: var(--Black, #000);
+    font-family: Mulish;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+text-align: center;    position: relative;
+    z-index: 1;
+
+}
+.calendar-no-active .calendar-no-active-text a { position: relative;  }
+.calendar-no-active .calendar-no-active-text a:after {  content: '';
+    position: absolute;
+    border-bottom: 3px solid black;
+    left: 0; /* Положение линии слева */
+    bottom: 4px; /* Положение линии */
+    width: 100%; /* Линия на ширину текста */
+}
+.calendar-no-active .calendar-no-active-hero {     position: absolute;
+    left: 0; bottom: 0;
+}
+.calendar-no-active .calendar-no-active-hero-two {    position: absolute;
+    right: 0; top: 0;
+    }
+
+
+@media (max-width: 1800px) {
+    .modal-holiday {      width: 100% !important;    min-width: 100%;}
+    .modal-holiday .modal-holiday-left {      min-width: 250px;}
+}
+@media (max-width: 1600px) {
+    .calendar-no-active .calendar-no-active-hero-two {      max-height: 250px;}
+    .calendar-no-active .calendar-no-active-hero {      max-height: 250px;}
+    .calendar-no-active .calendar-no-active-inner .calendar-no-active-logo {     max-height: 150px; }
+    .calendar-no-active .calendar-no-active-text { font-size: 30px;  line-height: 42px;
+    }
+    .calendar-no-active { padding: 38px 113px 120px  113px;}
+    .calendar-no-active .calendar-no-active-text a:after {  border-bottom: 2px solid black;}
+}
+
+
+
+@media (max-width: 1280px) {
+    .modal-holiday .modal_bg {  width: 182px;
+        height: 184px;    left: -67px;}
+    .modal-holiday .nametitle_inner { font-size: 30px;line-height: 37px;    height: 118px;}
+    .modal-holiday .price_inner {  font-size: 25px;line-height: 31px;font-weight: 700;width: 147px}
+    .modal-holiday .text_inner { font-size: 16px;line-height: 20px;}
+    .modal-holiday .description_inner {  font-size: 14px;font-weight: 600;line-height: 17px;    margin-bottom: 20px;}
+    .modal-holiday .modal-holiday-right {      min-height: 479px;    padding: 27px;}
+    .modal-holiday {        min-width: 738px;
+        margin: 0 auto;   max-width: 738px !important;   border-radius: 40px !important;}
+    .modal-holiday .modal-img {  border-radius: 39px 0px 0px 39px;}
+    .modal-holiday .modal-holiday-left {     min-width: 204px;}
+    .modal-holiday .btn-close svg {width: 20px;height: 20px; }
+    .modal-holiday .btn-close {      top: 34px;
+        right: 52px;}
+.modal  .modal-dialog {      max-width: 100%;}
+    .calendar-no-active .calendar-no-active-hero-two {      max-height: 150px;}
+    .calendar-no-active .calendar-no-active-hero {      max-height: 150px;}
+    .calendar-no-active .calendar-no-active-inner .calendar-no-active-logo { max-height: 100px}
+
+
+
+
+
+
+
+}
+@media (max-width: 778px) {
+    .calendar-no-active .calendar-no-active-hero {
+        max-height: 79px;
+    }
+    .calendar-no-active .calendar-no-active-inner .calendar-no-active-logo {
+        max-height: 50px;
+    }
+    .calendar-no-active .calendar-no-active-hero-two {       max-height: 79px;}
+    .calendar-no-active {  padding: 10px 20px 87px  20px;}
+    .calendar-no-active .calendar-no-active-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .calendar-no-active .calendar-no-active-text a:after {        border-bottom: 1px solid black;   bottom: 2px;}
+    .modal-holiday .modal-holiday-flex {      flex-direction: column;overflow: hidden}
+    .modal-holiday .modal-holiday-left { height: 254px }
+    .modal-holiday .modal-img { border-radius: 0px 0px 0px 0px;}
+    .modal-holiday {      border-radius: 47px !important;}
+    .modal-holiday .modal_bg {      top: -95px;left: -25px;}
+    .modal-holiday {     min-width: 100%;}
+    .modal-holiday .nametitle_inner {font-size: 20px;line-height: 25px;       padding: 0px 0px;     height: 100%;margin-top: 40px; bottom: 0; margin-bottom: 20px}
+    .modal-holiday .modal-holiday-right { padding: 20px}
+    .modal-holiday .modal-holiday-right-inner {  flex-wrap: wrap;}
+    .modal-holiday .price_inner {     width: 100%;
+        text-align: center;font-size: 17.796px;
+        min-width: 100%; line-height: 22px; margin-bottom: 15px}
+    .modal-holiday .text_inner { font-size: 14px}
+    .modal-holiday .description_inner {   font-size: 12px;line-height: 15px;
+        margin-top: 20px;margin-bottom: 15px}
+    .modal-holiday .btn-close {      top: 270px;}
+}
+
+@media (max-width: 545px) {
+    .calendar-no-active { margin-bottom: 60px}
+
+}
+
+@media (max-width: 370px) {
+    .calendar-no-active .calendar-no-active-text {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+
+}
+
+
+
+

@@ -1,0 +1,1 @@
+<a href=""><img src="<?=SITE_TEMPLATE_PATH ?>/assets/img/tg.svg" alt="Telegram" title="Telegram"><p>Telegram</p></a>

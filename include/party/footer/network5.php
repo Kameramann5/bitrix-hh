@@ -1,0 +1,1 @@
+<img src="<?=SITE_TEMPLATE_PATH ?>/assets/img/footer_yandex.svg" alt="Яндекс.Карты" title="Яндекс.Карты">

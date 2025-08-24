@@ -1,0 +1,456 @@
+/* holiday*/
+.holiday h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    color: white;
+    text-align: center;
+}
+.holiday .hero-block-one p {
+    width: 1270px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+    line-height: 42px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.holiday .hero-block-two .block {
+    border-radius: 30px;
+    background: #FC0;
+    padding: 30px 20px 20px 20px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;    max-width: 360px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.holiday .hero-block-two .block svg {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.holiday .hero-block-two .block p {
+    margin-top: 33px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+}
+.holiday .hero-block-two .block a {
+    width: 100%;
+    display: block;
+    padding: 18px 0;
+    font-size: 15px;
+    font-weight: 800;
+    width: 100%;
+    border-radius: 50px;
+    border: 2px solid #000;
+}
+.holiday .hero-block-two .block a:hover { background: black;color: #FC0; transition: 0.3s}
+.holiday .hero-block-two .row {
+    gap: 30px;    justify-content: center;
+}
+.holiday .hero-block-three {
+    margin-top: 140px;
+}
+.holiday .hero-block-three h2 {
+    font-weight: 700;
+    color: white;
+    font-size: 60px;
+    line-height: 72px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.holiday .hero-block-three .block {
+    border-radius: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 80px 20px 160px 20px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 490px;background-position: center;transition: 0.3s
+}
+.holiday .hero-block-three .block:hover {   transform: scale(1.1); transition: 0.3s}
+.holiday .hero-block-three .block p:nth-child(1n) {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    color: white;
+}
+.holiday .hero-block-three .block p:nth-child(2n) {
+
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    color: white;    height: 268px;
+    display: flex;
+    align-items: center;
+}
+.holiday .hero-block-three .block a {
+    color: white;
+    padding: 23px 35px;
+    font-size: 30px;
+    font-weight: 800;
+    display: inline-block;
+    border-radius: 50px;
+    border: 2px solid white;text-transform: uppercase;cursor: pointer;
+}
+.holiday .hero-block-three .block a:hover { background: var(--Yellow, #FC0);color: white; transition: 0.3s;border: 2px solid var(--Yellow, #FC0);}
+.holiday .hero-block-three .row {
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.holiday .swiper-slide {
+    background-repeat: no-repeat;
+    border-radius: 70px;
+    height: 600px;
+    margin-right: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.holiday .swiper-slide img {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.holiday .hero-block-four h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.holiday .swiper-holiday {
+    width: 1270px;
+    margin: 0 auto;
+    overflow: initial;
+    height: 600px;
+}
+.holiday .swiper-holiday .swiper-button-prev {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.holiday .swiper-holiday .swiper-button-prev, .holiday .swiper-holiday .swiper-button-next {
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.holiday .swiper-holiday .swiper-button-prev:after {
+    display: none;
+}
+.holiday .swiper-holiday .swiper-button-next:after {
+    display: none;
+}
+.holiday .hero-block-five h2 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 140px;
+}
+.holiday .hero-block-five .zakaz {
+    border-radius: 70px;
+    background: #FC0;
+    padding-top: 74px;
+    padding-bottom: 75px;
+    position: relative;
+    height: 420px;
+    overflow: hidden;
+}
+.holiday .hero-block-five .bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.holiday .hero-block-five .bg-two {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.holiday .hero-block-six {
+    text-align: center;
+    margin-top: 140px;
+}
+.holiday .hero-block-six .hero-block-six-row { gap: 30px;}
+.holiday .hero-block-six p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;text-align: left;
+    margin-bottom: 30px;
+    color: white;
+}
+.holiday .hero-block-six a {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+}
+.holiday .mob-bg {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.holiday .mob-bg-two {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+}
+.custom_anchor {     position: relative;bottom: 100px }
+
+
+@media (max-width: 1700px) {
+    .holiday .hero-block-three .block {
+        min-width: 48%;
+    }
+}
+@media (max-width: 1530px) {
+    .holiday .hero-block-one p {
+        font-size: 24px;
+        line-height: 33px;
+        width: 870px;
+    }
+    .holiday .hero-block-two .block svg {
+        width: 80px;
+        height: 80px;
+    }
+    .holiday .hero-block-two .block p {
+        font-size: 18px;
+        line-height: 19px;
+        margin-top: 17px;
+    }
+    .holiday .hero-block-two .block a {
+        padding: 7px 0;
+        font-size: 15px;
+    }
+
+    .holiday .hero-block-three .block p:nth-child(1n) {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .holiday .hero-block-three .block p:nth-child(2n) {
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 54px;
+        padding-bottom: 38px;
+    }
+    .holiday .hero-block-three .block a {
+        font-size: 16px;
+        padding: 7px 35px;
+    }
+    .holiday .hero-block-four .swiper-holiday .swiper-slide {
+        height: 412px;
+    }
+    .holiday .hero-block-four .swiper-holiday {
+        width: 870px;
+        height: 412px;
+    }
+}
+@media (max-width: 1200px) {
+    .holiday .hero-block-two .block {
+        min-width: 47%;
+    }
+    .holiday h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .holiday .hero-block-one p {
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .holiday .hero-block-two .block p {
+        font-size: 16px;
+        line-height: 17px;
+        margin-top: 15px;
+    }
+    .holiday .hero-block-three {
+        margin-top: 100px;
+    }
+    .holiday .hero-block-three h2 {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 40px;
+    }
+    .holiday .hero-block-three .block p:nth-child(2n) {
+        padding-top: 61px;
+        padding-bottom: 34px;
+    }
+    .holiday .hero-block-three .block {
+        min-width: 47%;
+    }
+    .holiday .hero-block-five h2 {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 40px;
+        margin-top: 100px;
+    }
+    .holiday .hero-block-six {
+        margin-top: 100px;
+    }
+    .holiday .hero-block-six p {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+    .holiday .hero-block-six a {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    .holiday .hero-block-four .swiper-holiday {
+        width: 738px;
+        height: 352px;
+    }
+    .holiday .hero-block-four h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .holiday .hero-block-four .swiper-holiday .swiper-slide {
+        height: 352px;
+    }
+}
+@media (max-width: 740px) {
+    .holiday .hero-block-four .swiper-holiday {
+        width: 90%;
+    }
+    .holiday .hero-block-four .swiper-slide {
+        -webkit-box-align: inherit;
+        -ms-flex-align: inherit;
+        align-items: inherit;
+    }
+}
+@media (max-width: 545px) {
+    .holiday .hero-block-four .swiper-slide {
+        height: 260px !important;
+        border-radius: 30px;
+    }
+    .holiday .hero-block-four .swiper-holiday {
+        height: 260px !important;
+    }
+    .holiday .hero-block-three .block {
+        min-width: 100%;
+        max-height: 235px;
+        padding: 40px 20px 30px 20px;
+    }
+    .holiday h1 {
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .holiday .hero-block-one p {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .holiday .hero-block-two .block svg {
+        width: 60px;
+        height: 60px;
+    }
+    .holiday .hero-block-two .block p {
+        margin-top: 18px;
+        margin-bottom: 47px;
+    }
+    .holiday .hero-block-two .row {
+        gap: 15px;
+    }
+    .holiday .hero-block-two .block {
+        min-width: 100%;
+    }
+    .holiday .hero-block-three {
+        margin-top: 40px;
+    }
+    .holiday .hero-block-three h2 {
+        margin-bottom: 20px;
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .holiday .hero-block-three .block p:nth-child(2n) {
+        height: 140px;padding-top: 0;padding-bottom: 0;
+    }
+    .holiday .hero-block-four h2 {
+        font-size: 26px;
+        line-height: 31px;margin-bottom: 20px;
+    }
+    .holiday .hero-block-five h2 {
+        font-size: 26px;
+        line-height: 31px;
+        margin-top: 40px;
+    }
+    .holiday .hero-block-six {
+        margin-top: 40px;
+    }
+    .holiday .hero-block-six p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .holiday .hero-block-five .bg {
+        display: none;
+    }
+    .holiday .hero-block-five .bg-two {
+        display: none;
+    }
+    .holiday .mob-bg {
+        display: block;
+    }
+    .holiday .mob-bg-two {
+        display: block;
+    }
+    .holiday .hero-block-five .zakaz {
+        border-radius: 40px;
+    }
+    .holiday .hero-block-three .row { margin-bottom: 0}
+}
+@media (max-width: 400px) {
+    .holiday .hero-block-four .swiper-slide {
+        height: 172px !important;
+    }
+    .holiday .hero-block-four .swiper-holiday {
+        height: 172px !important;
+    }
+    .holiday .swiper-holiday .swiper-button-next {
+        width: 40px;
+        height: 40px;
+    }
+    .holiday .swiper-holiday .swiper-button-prev {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/*end holiday*/

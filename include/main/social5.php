@@ -1,0 +1,1 @@
+<a href="https://yandex.ru/maps/org/semeynoye_kafe_barto/125905589545/?ll=49.148078%2C55.711138&z=17.09"><img src="<?=SITE_TEMPLATE_PATH ?>/assets/img/yandex.svg" alt="Яндекс Навигатор" title="Яндекс Карты"><p>Яндекс Карты</p></a>

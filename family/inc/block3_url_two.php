@@ -1,0 +1,1 @@
+<a href="/family/special_offers/">ПОДРОБНЕЕ</a>
